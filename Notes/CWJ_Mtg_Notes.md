@@ -1,6 +1,8 @@
 
 # CWJ Meeting Notes
 
+Date: 06-Nov-2026
+
 - user input
 - how to check for different conditions; if/else/elseif
 - loops
