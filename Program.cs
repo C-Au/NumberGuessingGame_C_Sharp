@@ -11,7 +11,7 @@ Console.WriteLine($"You typed: {userInput}");
 
 if (userInput == secretNumber)
 {
-    Console.WriteLine("You guessed the secret number!");
+    Console.WriteLine($"You guessed the secret number {secretNumber}!");
 }
 
 while (userInput != secretNumber)
