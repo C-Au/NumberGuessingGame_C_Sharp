@@ -27,6 +27,8 @@ while (userInput != secretNumber)
     {
         Console.WriteLine($"You guessed the secret number {secretNumber}!");
 
-        return;
+        break;
     }
 }
+
+Console.WriteLine("Thanks for playing. Goodbye!");
