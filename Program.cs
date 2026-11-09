@@ -13,5 +13,12 @@ Console.WriteLine("Guess a number from 1 to 100. Type in your guess in the termi
 
 //Ask user to type in their guess number
 Console.Write("Enter your guess number:");
-string userInput = Console.ReadLine() ?? "Unknown";
+int userInput = Convert.ToInt32(Console.ReadLine());
+
 Console.WriteLine($"You typed: {userInput}"); // Program resumes after Enter is pressed
+
+//Compares user input with the secret number
+
+//If user guess is wrong the game asks the user for another guess
+
+//If user guess is right the game prints "you guess the secret number {xxx}!"
