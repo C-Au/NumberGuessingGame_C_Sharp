@@ -1,8 +1,17 @@
+// START PROGRAM
 // Display a welcome message in the console.
 Console.WriteLine("Welcome to the number guessing game!");
 
-// Store the secret number.
-int secretNumber = 42;
+// Ask the user to type in their guess
+Console.WriteLine("Guess a number from 1 to 100. Type in your guess in the terminal.");
 
-// Temporarily display it to check that it works.
-Console.WriteLine(secretNumber);
+// Store the secret number. Comment out for now because it shows an error
+// int secretNumber = 42;
+
+// Temporarily display it to check that it works. To be commented out
+// Console.WriteLine(secretNumber);
+
+//Ask user to type in their guess number
+Console.Write("Enter your guess number:");
+string userInput = Console.ReadLine() ?? "Unknown";
+Console.WriteLine($"You typed: {userInput}"); // Program resumes after Enter is pressed
