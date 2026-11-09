@@ -9,12 +9,10 @@ int userInput = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"You typed: {userInput}");
 
-
 if (userInput == secretNumber)
 {
     Console.WriteLine("You guessed the secret number!");
 }
-
 
 while (userInput != secretNumber)
 {
