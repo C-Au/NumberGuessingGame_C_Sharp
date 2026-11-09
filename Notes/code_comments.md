@@ -25,7 +25,7 @@ Console.WriteLine($"You typed: {userInput}"); // Program resumes after Enter is 
 
 if (userInput == secretNumber)
 {
-Console.WriteLine("You guessed the secret number!");
+  Console.WriteLine($"You guessed the secret number {secretNumber}!");
 }
 
 //If user guess is wrong the game asks the user for another guess
