@@ -25,14 +25,14 @@ Console.WriteLine($"You typed: {userInput}"); // Program resumes after Enter is 
 
 if (userInput == secretNumber)
 {
-    Console.WriteLine("You guessed the secret number!");
+Console.WriteLine("You guessed the secret number!");
 }
 
 //If user guess is wrong the game asks the user for another guess
 
 while (userInput != secretNumber)
 {
-    Console.Write("User guess does not match the secret number. Try again ");
+Console.Write("User guess does not match the secret number. Try again ");
 
     Console.Write("Enter your guess number:");
     int userInput_2 = Convert.ToInt32(Console.ReadLine());
@@ -40,8 +40,13 @@ while (userInput != secretNumber)
     Console.WriteLine($"You typed: {userInput_2}");
     if (userInput_2 == secretNumber)
     {
-        Console.WriteLine("You guessed the secret number!");//If user guess is right the game prints "you guess the secret number {xxx}!"
+        Console.WriteLine($"You guessed the secret number {secretNumber}!");
+        
+        //If user guess is right the game prints "you guess the secret number {xxx}!"
 
-        return;//Game ends
+        return;
+        
+        //Game ends
     }
+
 }

@@ -22,9 +22,10 @@ while (userInput != secretNumber)
     int userInput_2 = Convert.ToInt32(Console.ReadLine());
 
     Console.WriteLine($"You typed: {userInput_2}");
+
     if (userInput_2 == secretNumber)
     {
-        Console.WriteLine("You guessed the secret number!");
+        Console.WriteLine($"You guessed the secret number {secretNumber}!");
 
         return;
     }
