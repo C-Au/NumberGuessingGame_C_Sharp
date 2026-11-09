@@ -32,7 +32,7 @@ Console.WriteLine($"You guessed the secret number {secretNumber}!");
 
 while (userInput != secretNumber)
 {
-Console.Write("User guess does not match the secret number. Try again ");
+Console.Write("Your guess does not match the secret number. Try again ");
 
     Console.Write("Enter your guess number:");
     int userInput_2 = Convert.ToInt32(Console.ReadLine());
