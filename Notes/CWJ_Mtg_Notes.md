@@ -12,6 +12,8 @@ use the flow chart to write my sudo code --> write the actual code
 
 write incrementally; don't one shot it
 
+---
+
 Date: 12-Nov-2026
 
 Add higher or lower hints.
