@@ -10,11 +10,13 @@
 
 //Ask user to type in their guess number
 
-//User validation; check the following:
+/*User validation; check the following:
 
     - if the user guess is a number
     
     - then is within the 1 to 100 range
+
+    */
 
 // Do While loop with user input inside the loop
 

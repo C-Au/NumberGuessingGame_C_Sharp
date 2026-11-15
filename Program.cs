@@ -1,9 +1,10 @@
+//START PROGRAM. Display a welcome message in the console.
 Console.WriteLine("Welcome to the number guessing game!");
-
+// Ask the user to type in their guess
 Console.WriteLine("Guess a number from 1 to 100. Type in your guess in the terminal.");
-
+// Store the secret number
 int secretNumber = 42;
-
+//Ask user to type in their guess number
 Console.Write("Enter your guess number:");
 int userInput = Convert.ToInt32(Console.ReadLine());
 
@@ -32,3 +33,28 @@ while (userInput != secretNumber)
 }
 
 Console.WriteLine("Thanks for playing. Goodbye!");
+// END PROGRAM
+
+// START PROGRAM
+
+// Display a welcome message in the console.
+
+// Ask the user to type in their guess
+
+// Store the secret number
+
+//Ask user to type in their guess number
+
+/*User validation; check the following:
+
+    - if the user guess is a number
+    
+    - then is within the 1 to 100 range
+
+    */
+
+// Do While loop with user input inside the loop
+
+//Once the user guesses the secert number the game prints the close game message
+
+
