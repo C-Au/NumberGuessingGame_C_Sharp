@@ -7,8 +7,14 @@ int secretNumber = 42;
 //Ask user to type in their guess number
 Console.Write("Enter your guess number:");
 int userInput = Convert.ToInt32(Console.ReadLine());
-
+// shows the user what they typed
 Console.WriteLine($"You typed: {userInput}");
+
+/*
+User validation; enter number within range of 1 to 100.
+
+Bonus: user validation; "must be a number". Try catch interger.
+*/
 
 if (userInput == secretNumber)
 {
@@ -35,15 +41,7 @@ while (userInput != secretNumber)
 Console.WriteLine("Thanks for playing. Goodbye!");
 // END PROGRAM
 
-// START PROGRAM
 
-// Display a welcome message in the console.
-
-// Ask the user to type in their guess
-
-// Store the secret number
-
-//Ask user to type in their guess number
 
 /*User validation; check the following:
 
