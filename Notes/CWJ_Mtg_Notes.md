@@ -23,3 +23,13 @@ User validation; enter number within range of 1 to 100.
 Bonus: user validation; "must be a number". Try catch interger.
 
 Use Do while loop on line 17. Remove duplicate logic in the lines above. User input inside the main game logic loop
+
+---
+
+Date: 19-Nov-2026
+
+guess counter
+
+random number generator
+
+clean up some of the redundancy in my game
