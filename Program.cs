@@ -9,7 +9,7 @@ int userInput;
 do
 {
     Console.Write("Enter your guess number:");
-    
+
     string? input = Console.ReadLine();
     if (!int.TryParse(input, out userInput))
     {
@@ -36,10 +36,6 @@ do
     {
         Console.WriteLine("Your guess number is too low. Try again");
     }
-    else
-    {
-        break;
-    }
 } while (userInput != secretNumber);
 
 if (userInput == secretNumber)
@@ -48,4 +44,3 @@ if (userInput == secretNumber)
 }
 
 Console.WriteLine("Thanks for playing. Goodbye!");
-
