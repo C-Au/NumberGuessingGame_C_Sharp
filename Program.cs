@@ -38,9 +38,6 @@ do
     }
 } while (userInput != secretNumber);
 
-if (userInput == secretNumber)
-{
-    Console.WriteLine($"Your guess number matches the secret number {secretNumber}!");
-}
+Console.WriteLine($"Your guess number matches the secret number {secretNumber}!");
 
 Console.WriteLine("Thanks for playing. Goodbye!");
