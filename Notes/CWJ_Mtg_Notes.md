@@ -30,8 +30,8 @@ Date: 19-Nov-2026
 
 guess counter
 
-random number generator
+~~random number generator~~
 
-clean up some of the redundancy in my game
+~~clean up some of the redundancy in my game~~
 
 ---
