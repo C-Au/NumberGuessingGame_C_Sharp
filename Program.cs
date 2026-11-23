@@ -8,6 +8,8 @@ int secretNumber = rng.Next(1, 100);
 
 int userInput;
 
+int guessCount = 0;
+
 do
 {
     Console.Write("Enter your guess number:");
