@@ -28,7 +28,7 @@ Use Do while loop on line 17. Remove duplicate logic in the lines above. User in
 
 Date: 19-Nov-2026
 
-guess counter
+~~guess counter; stop the game after a certain number of guesses~~
 
 ~~random number generator~~
 
