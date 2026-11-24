@@ -1,9 +1,8 @@
-Random rng = new Random();
-
 Console.WriteLine("Welcome to the number guessing game!");
 
 Console.WriteLine("Guess a number from 1 to 100. Type in your guess in the terminal.");
 
+Random rng = new Random();
 int secretNumber = rng.Next(1, 101);
 
 int userInput;
