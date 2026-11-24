@@ -20,6 +20,11 @@ do
         Console.WriteLine($"Your guess '{input}' is not a valid integer.");
         continue;
     }
+
+    if (userInput >= 1 && userInput <= 100)
+    {
+        ++guessCount;
+    }
     Console.WriteLine($"You typed: {userInput}");
 
     if (userInput < 1)
@@ -42,6 +47,8 @@ do
     }
 } while (userInput != secretNumber);
 
-Console.WriteLine($"Your guess number matches the secret number {secretNumber}!");
+Console.WriteLine(
+    $"Your guess number matches the secret number {secretNumber}! You've made {guessCount} guesses"
+);
 
 Console.WriteLine("Thanks for playing. Goodbye!");
