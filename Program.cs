@@ -12,6 +12,11 @@ int guessCount = 0;
 
 do
 {
+    if (guessCount == 2)
+    {
+        Console.WriteLine("You've guessed 2 times. You have one last guess before the game ends.");
+    }
+
     Console.Write("Enter your guess number:");
 
     string? input = Console.ReadLine();
@@ -39,16 +44,23 @@ do
     }
     else if (userInput > secretNumber)
     {
-        Console.WriteLine("Your guess number is too high. Try again");
+        Console.WriteLine("Your guess number is too high.");
     }
     else if (userInput < secretNumber)
     {
-        Console.WriteLine("Your guess number is too low. Try again");
+        Console.WriteLine("Your guess number is too low.");
     }
-} while (userInput != secretNumber);
+} while (userInput != secretNumber && guessCount < 3);
 
-Console.WriteLine(
-    $"Your guess number matches the secret number {secretNumber}! You've made {guessCount} guesses"
-);
+if (userInput == secretNumber)
+{
+    Console.WriteLine(
+        $"Your guess number matches the secret number {secretNumber}! You've made {guessCount} guesses"
+    );
+}
+else
+{
+    Console.WriteLine($"You ran out of guesses. The secret number is {secretNumber}.");
+}
 
 Console.WriteLine("Thanks for playing. Goodbye!");
