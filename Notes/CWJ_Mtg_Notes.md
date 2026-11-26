@@ -39,3 +39,5 @@ Date: 19-Nov-2026
 Date: 25-Nov-2026
 
 Add a play again option to this game
+
+Next coding project: Make an adventure game with binary trees. can loop to each other. create a node. right or left branch
